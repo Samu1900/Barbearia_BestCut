@@ -1,30 +1,28 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
 
-#container{
-    width:100%;
-   height:80vh;
-   
+#container {
+    width: 100%;
+    height: 80vh;
 }
 
-.menu{
+.menu {
     position: relative;
     width: 100%;
     height: 50px;
     left: 0px;
-    top:0px;
+    top: 0px;
     background-color: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.menu h1{
-    
+.menu h1 {
     width: 100%;
     height: 75px;
     top: 54px;
@@ -32,172 +30,239 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
-    line-height: 40px; 
+    line-height: 40px;
     text-align: center;
-
 }
 
-.menu h2{
-    
+.cards {
     position: relative;
-    width: 172px;
-    height: 76px;
-    bottom: 118px;
-    left: 80px;
-    
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 77px; 
-
-}
-
-.menu h2:hover{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    cursor:pointer;
-    font-size:26px;
-    top:4;
-    transition: 500ms;
-}
-
-.menu a{
-    text-decoration: none;
-    color: black;
-}
-.cards{
-    position: relative;
-    top:30%;
-    margin-left: auto ;
-    margin-right: auto ;
-    width:80%;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     height: 410px;
-    padding-left:20%;
-    
-
+    justify-content: center;
+    display: flex;
 }
 
-#card_block1{
+
+/*=====================================CARD NÚMERO 1========================================================*/
+
+#card_block1 {
     text-align: center;
     margin: 10px;
     float: left;
     width: 300px;
     height: 350px;
-    background-color:#18191a;
-    border-radius:4px;
-    color:#fff;
-    font-size:20px;
-    box-shadow:10px 5px 5px rgba(32, 27, 27, 0.582);
-    cursor:pointer;
-    
+    background-color: #18191a;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px rgba(32, 27, 27, 0.582);
+    cursor: pointer;
 }
 
-#card_block1:hover{
-    text-align: center;
-    margin:10px;
-    float: left;
-    padding:20px;
-    cursor:pointer;
+#card_block1:hover {
+    height: 390px;
+    width: 330px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
-.Img_Card1{
-    top:10px;
+.Img_Card1 {
+    width: 100%;
+    height: 50%;
+}
+
+.Img_Card1 {
+    top: 10px;
     position: relative;
-    width: 300px;
-    height: 300px;
-    cursor:pointer;
+    width: 100%;
+    height: 90%;
+    cursor: pointer;
 }
 
 
+/*=====================================CARD NÚMERO 1========================================================*/
 
-#card_block2{
+
+/*=====================================CARD NÚMERO 2========================================================*/
+
+#card_block2 {
     text-align: center;
-    margin:10px;
+    margin: 10px;
     float: left;
     width: 300px;
     height: 350px;
-    background-color:#18191a;
-    border-radius:4px;
-    color:#fff;
-    font-size:20pt;
-    box-shadow:10px 5px 5px rgba(32, 27, 27, 0.582);
-    cursor:pointer;
+    background-color: #18191a;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px rgba(32, 27, 27, 0.582);
+    cursor: pointer;
 }
 
+#card_block2:hover {
+    height: 390px;
+    width: 330px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+}
 
+.Img_Card2 {
+    width: 80%;
+    height: 50%;
+}
 
-#card_block2:hover{
+.Img_Card2 {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin:10px;
-    float: left;
-    padding:20px;
-    cursor:pointer;
-}
-
-
-.Img_Card2{
-    top:10px;
+    top: 10px;
     position: relative;
-    width: 300px;
-    height: 300px;
-    cursor:pointer;
+    width: 90%;
+    height: 80%;
+    cursor: pointer;
 }
 
 
+/*=====================================CARD NÚMERO 2========================================================*/
 
-#card_block3{
+
+/*=====================================CARD NÚMERO 3========================================================*/
+
+#card_block3 {
     text-align: center;
-    margin:10px;
+    margin: 10px;
     float: left;
     width: 300px;
     height: 350px;
-    background-color:#18191a;
-    border-radius:4px;
-    color:#fff;
-    font-size:20pt;
-    box-shadow:10px 5px 5px rgba(32, 27, 27, 0.582);
+    background-color: #18191a;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px rgba(32, 27, 27, 0.582);
+    cursor: pointer;
 }
 
-#card_block3:hover{
-    text-align: center;
-    margin:10px;
-    float: left;
-    padding:20px;
-    cursor:pointer;
+#card_block3:hover {
+    height: 390px;
+    width: 330px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
+.Img_Card3 {
+    width: 100%;
+    height: 50%;
+}
 
-.Img_Card3{
-    top:10px;
+.Img_Card3 {
+    top: 0px;
     position: relative;
-    width: 300px;
-    height: 300px;
-    cursor:pointer;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
 }
 
 
-.Texto_GIMP{
-    font-size:10px;
-    top:10px;
+/*=====================================CARD NÚMERO 3========================================================*/
+
+
+/*=====================================PÁGINA 2========================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.menu h2 {
+    position: relative;
+    width: 172px;
+    height: 76px;
+    bottom: 118px;
+    left: 80px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 77px;
+}
+
+
+/*.menu h2:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 26px;
+    top: 4;
+    transition: 500ms;
+}*/
+
+.title_page {
+    position: relative;
+    left: 44%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu2 li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+.Texto_GIMP h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.Texto_GIMP p {
+    margin: 12px;
+    font-size: 20px;
+    top: 10px;
     bottom: 10px;
-    
 }
 
-.backbege{
+.Texto_GIMP ul li {
+    margin: 10px;
+    font-size: 20px;
+    bottom: 10px;
+}
+
+.backbege {
     width: 100%;
     height: 560px;
     left: 0px;
     top: 2155px;
     background-color: #e9e3ce;
 }
-.backbege img{
-    width: 65%;
+
+.main_Image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 560px;
+    position: relative;
+}
+
+.backbege img {
+    width: 100%;
     height: 520px;
-    position:relative;
     left: 67px;
     top: 20px;
     background-size: auto;
-    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 18px;
 }
+
+
+/*=====================================PÁGINA 2========================================================*/
