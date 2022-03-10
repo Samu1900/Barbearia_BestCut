@@ -1,11 +1,14 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
 }
 
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
-    max-width: 1280px;
+   
 
 }
 
@@ -210,13 +213,14 @@ body {
 
 .title_page {
     position: relative;
-    left: 34%;
+    left: 39%;
     margin-bottom: 12px;
     text-align: center;
     font-size: 40px;
 }
 .home_page{
     margin-top: 14px;
+    margin-left: 20px;
     height: 40px;
     float: left;
     font-size: 20px;
@@ -280,15 +284,13 @@ body {
     height: 560px;
     position: relative;
 }
-
 .backbege img {
-    width: 100%;
+    width: 80%;
     height: 520px;
-    left: 67px;
     top: 20px;
     margin-top: 10px;
     background-size: auto;
-    margin-left: auto;
+    margin-left: 120px;
     margin-right: auto;
     align-items: center;
     margin-top: 18px;
